@@ -31,6 +31,26 @@ Open `index.html` in your preferred web browser.
 
 > Coming Soon!
 
+## **🚀 Usage**
+- **Sign Up** on the registration page.
+- **Log In** with your credentials.
+- If **2FA is enabled**, enter the **6-digit verification code**.
+- If you **forgot your password**, use the **password reset option**.
+
+## **🔧 API Endpoints**
+| Method | Endpoint           | Description                 |
+|--------|--------------------|-----------------------------|
+| POST   | `/api/login`       | Authenticates user login   |
+| POST   | `/api/register`    | Registers a new user       |
+| POST   | `/api/verify-2fa`  | Verifies 2FA code         |
+| POST   | `/api/resend-2fa`  | Resends 2FA code          |
+| POST   | `/api/reset-password` | Sends reset email  |
+
+## **🛠️ Tech Stack**
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js (if used)
+- **Database**: MongoDB / PostgreSQL (if used)
+- **Authentication**: JWT, 2FA with OTP
 
 ## 🤝 Contributing
 

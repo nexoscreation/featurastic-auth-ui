@@ -12,12 +12,11 @@
 
 ## ✨ Features
 
-- 🔒 Multi-factor authentication
-- 🌐 OAuth 2.0 and OpenID Connect support
-- 📱 Responsive design for mobile and desktop
-- 🎨 Customizable UI components
-- 🔑 Password-less authentication options
-- 📊 Provides an engaging interface with interactive buttons and animations.s
+- 🔐 **User Authentication** – Secure login and registration.
+- 🔄 **Password Reset** – Forgot password recovery via email.
+- 🔢 **Two-Factor Authentication (2FA)** – Adds an extra layer of security.
+- 🎨 **Modern UI/UX** – Clean, responsive, and user-friendly design.
+- 📱 **Responsive design** - for mobile and desktop
 
 ## 🚀 Quick Start
 

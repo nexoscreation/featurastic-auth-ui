@@ -266,7 +266,7 @@ button:hover {
 }
 
 /* Input Field Styles */
-.input-field-2 {
+.twofa-code {
   background: hsl(180deg 88.18% 25.86%);
   font-family: "Roboto Momo", sans-serif;
   text-align: center;

@@ -4,66 +4,118 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Authentication System</title>
+  <title>Authentication UI Showcase</title>
   <style>
-    /* styles.css */
+    /* General Styles */
     body {
-      font-family: 'Roboto Mono', monospace;
+      font-family: 'Poppins', sans-serif;
       margin: 0;
-      color: hsla(180, 29%, 72%, 0.75);
-      background: black;
+      padding: 0;
+      color: hsla(180, 29%, 72%, 1);
+      background: hsl(0, 0%, 0%);
       text-align: center;
       height: 100vh;
       display: flex;
       flex-direction: column;
       justify-content: center;
+      align-items: center;
     }
+
 
     header {
       margin-bottom: 2rem;
     }
 
+    h1 {
+      font-size: 2rem;
+      font-weight: bold;
+      letter-spacing: 1px;
+      color: #00E5FF;
+    }
+
     .links {
       display: flex;
       flex-direction: column;
-      justify-items: center;
-      align-self: center;
-      gap: 0.5rem;
-      border: 0.1rem solid cyan;
-      padding: 1rem;
-      max-width: 700px;
+      align-items: center;
+      gap: 0.8rem;
+      border: 2px solid hsl(180, 88.18%, 56.86%);
+      padding: 1.5rem;
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+      background: rgba(255, 255, 255, 0.05);
+      box-shadow: 0 4px 8px rgba(0, 229, 255, 0.05);
     }
 
     .links a {
-      padding: 0.5rem 1rem;
-      color: #000000;
-      background: #FF0578;
+      width: 100%;
+      padding: 12px 20px;
+      color: hsl(0, 0%, 0%);
+      background: linear-gradient(135deg, #FF4081, #FF80AB);
+      text-decoration: none;
+      font-size: 1rem;
+      font-weight: 600;
+      border-radius: 5px;
       display: flex;
       align-items: center;
       justify-content: center;
-      text-decoration: none;
-      border: 0;
+      transition: all 0.3s ease-in-out;
       width: calc(100% - 2rem);
+      box-shadow: 0 3px 6px rgba(255, 64, 129, 0.03);
     }
 
     .links a:hover {
-      background: #D90429;
+      background: linear-gradient(135deg, #F50057, #FF4081);
+      transform: translateY(-2px);
+      box-shadow: 0 6px 12px rgba(255, 64, 129, 0.05);
+    }
+
+    .links a:focus {
+      outline: 2px dashed #FF4081;
+      outline-offset: 4px;
+    }
+
+    .footer {
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+      color: #80DEEA;
+    }
+    
+    @media (max-width: 480px) {
+      h1 {
+        font-size: 1.8rem;
+      }
+      
+      .links {
+        max-width: 90%;
+      }
+      
+      .links a {
+        font-size: 0.9rem;
+        padding: 10px 15px;
+      }
     }
   </style>
 </head>
 
 <body>
+
   <header>
-    <h1>Authentication Design UI</h1>
+    <h1>Authentication UI Showcase</h1>
   </header>
 
   <nav class="links">
-    <a href="./pages/login.html">Login Page</a>
-    <a href="./pages/register.html">Registration Page</a>
-    <a href="./pages/2fa.html">2FA Verification Page</a>
-    <a href="./pages/forgot-password.html">Forgot Password Page</a>
-    <a href="https://youtube.com/@nexoscreator" target="_blank" rel="noopener noreferrer">Subscribe on YouTube</a>
+    <a href="./pages/login.html">🔑 Login Page</a>
+    <a href="./pages/register.html">📝 Registration Page</a>
+    <a href="./pages/2fa.html">🔐 2FA Verification</a>
+    <a href="./pages/forgot-password.html">🔄 Forgot Password</a>
+    <a href="https://youtube.com/@nexoscreator" target="_blank" rel="noopener noreferrer">🎥 Subscribe on YouTube</a>
   </nav>
+
+  <footer class="footer">
+    Made with ❤️ by <a href="http://www.nexoscreation.tech" target="_blank" rel="noopener noreferrer">Nexos Creation</a>
+  </footer>
+
 </body>
 
 </html>

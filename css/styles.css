@@ -4,17 +4,16 @@
 :root {
   --primary: 180 88.18% 56.86%;
   --secondory: 332.4, 100%, 50.98%;
-
-  --colorA: ;
-  --colorB: ;
+  --colorA: 0, 0%, 0%;
+  --colorB: 0, 0%, 100%;
 }
 
 /* Global Styles */
 body {
   display: flex;
-  color: hsla(180, 29%, 72%, 0.75);
-  font-family: 'Roboto Momo', sans-serif;
-  background: hsl(0, 0%, 0%);
+  color: hsla(180, 29%, 72%, 1);
+  font-family: "Roboto Momo", sans-serif;
+  background: hsl(var(--colorA));
   justify-content: center;
   text-align: center;
   margin: 0;
@@ -34,7 +33,7 @@ svg {
 }
 
 .link {
-  color: hsl(0, 0%, 100%);
+  color: hsl(var(--colorB));
 }
 
 /* Container Styles */
@@ -63,7 +62,7 @@ svg {
   flex-direction: column;
   width: calc(100% - 1rem);
   padding: 0.5rem;
-  background: hsl(0, 0%, 0%);
+  background: hsl(var(--colorA));
   height: auto;
   clip-path: polygon(
     24px 0%,
@@ -91,7 +90,7 @@ svg {
   display: flex;
   align-content: center;
   padding: 0.5rem 0.25rem;
-  color: hsl(0, 0%, 0%);
+  color: hsl(var(--colorA));
   background: hsl(var(--secondory));
   justify-content: center;
   align-items: center;
@@ -129,7 +128,7 @@ svg {
 form {
   display: flex;
   flex-direction: column;
-  color: hsl(0, 0%, 100%);
+  color: hsl(var(--colorB));
   width: 100%;
 }
 
@@ -157,10 +156,10 @@ form {
 
 /* Input Field Styles */
 .input-field {
-  background: hsl(180deg 88.18% 20%);
   font-family: "Roboto Momo", sans-serif;
   font-size: 1.2rem;
   border: 0.1rem solid hsl(var(--primary));
+  background: hsl(180deg 88.18% 20%);
   outline: 0;
   padding: 0rem 0.5rem;
   width: calc(100% - 1rem);
@@ -195,23 +194,23 @@ form {
   content: " ";
   display: block;
   position: absolute;
-  top: 0.5rem;
-  height: 0;
-  border: 1px solid hsl(var(--primary));
+  top: 0.35rem;
+  height: 0.15rem;
+  width: 44%;
 }
 
 .or:after {
   right: 0;
-  width: 44%;
+  background: linear-gradient(90deg, hsl(var(--primary)), transparent);
 }
 
 .or:before {
   left: 0;
-  width: 44%;
+  background: linear-gradient(90deg, transparent, hsl(var(--primary)));
 }
 
 /* Hover Styles for Buttons */
-button:hover{
+button:hover {
   background: hsl(var(--primary));
 }
 
@@ -281,7 +280,6 @@ button:hover{
   height: auto;
 }
 
-
 @media only screen and (max-width: 768px) {
   /* CSS styles for mobile */
   .container {
@@ -293,16 +291,15 @@ button:hover{
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   /* CSS styles for tablets */
   .container {
-    max-width: 600px;
+    max-width: 650px;
     min-width: 360px;
   }
 }
 
-
 @media screen and (min-width: 1024px) {
   /* Your styles for laptops go here */
   .container {
-    max-width: 800px;
+    max-width: 768px;
     min-width: 512px;
   }
 }

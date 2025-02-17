@@ -1,15 +1,12 @@
-![GitHub Pages](https://img.shields.io/github/deployments/nexoscreation/featurastic-auth-kit/github-pages.svg?style=flat-square&color=cyan)
-![GitHub Latest Release](https://img.shields.io/github/v/release/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
-![GitHub License](https://img.shields.io/github/license/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)
+[![GitHub Pages](https://img.shields.io/github/deployments/nexoscreation/featurastic-auth-ui/github-pages.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-ui)
+[![GitHub Release](https://img.shields.io/github/v/release/nexoscreation/featurastic-auth-ui.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-ui)
+[![GitHub License](https://img.shields.io/github/license/nexoscreation/featurastic-auth-ui.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-ui)
+[![GitHub code](https://img.shields.io/github/languages/code-size/nexoscreation/featurastic-auth-ui.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-ui)
+[![GitHub stars](https://img.shields.io/github/stars/nexoscreation/featurastic-auth-ui.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-ui)
 
-[![GitHub stars](https://img.shields.io/github/stars/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit)
-[![GitHub forks](https://img.shields.io/github/forks/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit/fork)
-[![GitHub issues](https://img.shields.io/github/issues/nexoscreation/featurastic-auth-kit.svg?style=flat-square&color=cyan)](https://github.com/nexoscreation/featurastic-auth-kit/issues)
+# Featurastic Authentication UI 🔐
 
-# Fui Authentication UI 🔐
-
-![Fui Authentication Banner](https://nexoscreation.github.io/featurastic-auth-kit/)
+![Fui Authentication Banner](https://nexoscreation.github.io/featurastic-auth-ui/)
 
 > 🚀 Secure, seamless, and stylish authentication solutions for modern web applications!
 
@@ -29,28 +26,31 @@ git clone https://github.com/nexoscreation/featurastic-auth-kit.git
 cd featurastic-auth-kit
 ```
 
-Open index.html in your preferred web browser.
-Start chatting with the chatbot! You can type messages in the input field and press "Send" to interact with the chatbot.
+Open `index.html` in your preferred web browser.
 
 ## 📚 Documentation
 
-> Type your message in the input field and press "Send" to send it to the chatbot, The chatbot will process your message and respond accordingly, Use the "Clear Chat History" button to clear the conversation history if needed.
+> Coming Soon!
 
 
 ## 🤝 Contributing
 
-We welcome contributions! Please see our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+We love contributions! Here's how you can help:
 
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature/improvement`).
-3. Make your changes and commit them (`git commit -m 'Add feature/improvement'`).
-4. Push to the branch (`git push origin feature/improvement`).
-5. Open a Pull Request.
+1. 🍴 Fork the repository
+2. 🌿 Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. 💾 Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. 🚀 Push to the branch (`git push origin feature/AmazingFeature`)
+5. 🔃 Open a Pull Request
+
+Check out our [Contribution Guidelines](CONTRIBUTING.md) for more details.
 
 ## 📣 Community
 
-- [Discord Server](https://discord.gg/)
-- [GitHub Discussions](https://github.com/nexoscreation/featurastic-auth-kit/discussions)
+Join our vibrant community:
+
+- [💬 Discussions](https://github.com/nexoscreation/featurastic-auth-kit/discussions): Share ideas, ask questions
+- [🔥 Discord Server](https://discord.gg/A3euTAVqHv): Report bugs or request features
 
 ## 📄 License
 
@@ -58,8 +58,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-Made with ❤️ by `<a href="https://github.com/nexoscreation">`Nexos Creation`</a>`
+<p align="center">
+  Made with ❤️ by Nexos Creation
+</p>
 
-
-
-`<a href="https://github.com/nexoscreation/featurastic-auth-kit/stargazers">`⭐ Star us on GitHub!`</a>`
+<p align="center">
+  <a href="https://github.com/nexoscreation/featurastic-auth-kit/stargazers">⭐ Star us on GitHub!</a>
+</p>
